@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Psyphic Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+         .container {
+            position: relative;
+            text-align: center;
+        }
+        img {
+            opacity: 1;
+            filter: alpha(opacity=50); 
+        } 
+        .centered {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="game" class="container">        
+
+     <div class="centered"><h1><b>The Psychic Game</b></h1>
+        <br>
+        <p>Guess what letter I'm thinking of!</p>
+        <br>
+        <p id='wins'>Wins:</p>
+        <br>
+        <p id='losses'>Losses:</p>
+        <br>
+        <p id='guessesLeft'>Guesses Left: 9</p>
+        <br>
+        <p id='guessesSoFar'>Player Guesses:</p>
+     </div>
+</body>
+</html> 
+
+
+
+
+
+
